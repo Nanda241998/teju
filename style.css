@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 40px;
+	padding: 15PX;
+	font-family: sans-serif;
+    font-weight: 200;
+}
+
+/*form {
+	display: flex;
+	align-items: center;
+	margin: 20px 0;
+}*/
+h1{
+    color: white;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input[type="date"] {
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+button {
+	padding: 5px 8px;
+    width: 85px;
+	background-color: white;
+
+	border-radius: 1px solid black;
+	cursor: pointer;
+}
+
+#current-image-container {
+    border-radius: 5px solid white;
+  
+	margin: 20px 0;
+	padding: 30px;
+    color: white;
+	background-color: #000;
+}
+
+#current-image-container img {
+	max-width: 70%;
+	height: auto;
+}
+
+#search-history {
+	list-style: none;
+	margin: 20px 0;
+	padding: 0;
+}
+
+#search-history li {
+	cursor: pointer;
+	padding: 5px 10px;
+    color: blue;
+    text-decoration: underline solid blue;
+	
+	margin-bottom: 5px;
+	border-radius: 3px;
+}
+
+/*#search-history li:hover {
+    text-decoration: underline overline dotted blue; 
+}
